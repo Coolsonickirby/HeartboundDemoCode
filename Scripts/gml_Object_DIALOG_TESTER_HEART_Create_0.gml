@@ -1,0 +1,15 @@
+event_inherited();
+image_speed = 0.2;
+dialog_file_name = "animus_strollshelly_dialog_ENUS";
+dialog_start = 177;
+dialog_end = 210;
+text_location = 5;
+talk_distance = 0;
+text_flipped = 0;
+text_border = 1;
+text_fade = 0;
+cur_message = dialog_start;
+question_true = 0;
+question_asked = 0;
+question_answered = 0;
+alarm[0] = 5;

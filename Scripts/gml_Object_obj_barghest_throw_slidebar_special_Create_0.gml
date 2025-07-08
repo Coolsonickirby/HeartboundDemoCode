@@ -1,0 +1,13 @@
+depth = -5500;
+target_speed = 0.01;
+target_value = 0.75;
+target_location = sprite_height * target_value;
+width_half = sprite_width * 0.5;
+height_half = sprite_height * 0.5;
+target_variance = 0.1;
+target_min = 0.5 - target_variance;
+target_max = 0.5 + target_variance;
+target_pos = 0;
+target_x_1 = x + 40;
+target_x_2 = x - 60;
+target_active = 0;

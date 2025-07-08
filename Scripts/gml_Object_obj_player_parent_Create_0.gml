@@ -1,0 +1,32 @@
+event_inherited();
+depth = -y;
+mask_index = spr_lore_mask;
+player_x = xstart;
+player_y = ystart;
+collide_left_x = round(bbox_left);
+collide_top_y = round(bbox_top);
+collide_right_x = round(bbox_right);
+collide_bottom_y = round(bbox_bottom);
+next_room = 0;
+next_color = 0;
+fadein_timer = 0;
+fadeout_timer = 0;
+fadepause_timer = 0;
+fadeout_amount = 0;
+fadein_amount = 0;
+light_base_width = 22;
+light_step_width = 22;
+light_base_shadow = 0.15;
+light_step_shadow = 0.25;
+light_offset_x = 0;
+light_offset_y = 24;
+push_active = 0;
+xmove = x;
+ymove = y;
+xaxis = 0;
+yaxis = 0;
+xpush = 0;
+ypush = 0;
+
+if (!instance_exists(obj_view))
+    instance_create_depth(x, y, 0, obj_view);

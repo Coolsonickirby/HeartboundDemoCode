@@ -1,0 +1,1 @@
+draw_text_ext_transformed_colour(7, room_height - 13, string_hash_to_newline("Early Access - Demo | v1.0.9.623"), 0, room_width, image_xscale, image_yscale, image_angle, 16777215, 16777215, 16777215, 16777215, image_alpha);

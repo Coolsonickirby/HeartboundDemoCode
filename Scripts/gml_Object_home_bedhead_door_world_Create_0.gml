@@ -1,0 +1,13 @@
+event_inherited();
+next_room = global.start_room;
+player_x = global.start_x;
+player_y = global.start_y;
+next_color = 0;
+fadein_timer = 0.02;
+fadeout_timer = 0.02;
+fadepause_timer = 0.02;
+fadeout_amount = 0.05;
+fadein_amount = 0.05;
+snd_file = snd_bedroom_door;
+snd_volume = 0.05;
+snd_pitch = 1;

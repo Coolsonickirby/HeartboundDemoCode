@@ -1,0 +1,11 @@
+event_inherited();
+image_speed = 0.2;
+move_width = 640;
+move_height = 360;
+random_rot = random_range(1, 3);
+random_rot_dir = choose(-1, 1);
+random_x_start = 0;
+random_y_start = 0;
+random_x_tar = 0;
+random_y_tar = 0;
+alarm[0] = room_speed * 0.5;

@@ -1,0 +1,14 @@
+depth = -5500;
+target_speed = 0.02;
+target_value = 0.75;
+target_location = sprite_height * target_value;
+current_bounces = 0;
+total_bounces = 5;
+target_variance = 0.1 - (obj_combat_parent.selected_diff * 0.01);
+target_variance = clamp(target_variance, 0.05, 0.1);
+target_min = 0.5 - target_variance;
+target_max = 0.5 + target_variance;
+target_pos = 0;
+target_x_1 = x + 40;
+target_x_2 = x - 60;
+target_active = 0;

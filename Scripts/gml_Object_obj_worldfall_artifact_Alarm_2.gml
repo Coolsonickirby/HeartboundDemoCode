@@ -1,0 +1,10 @@
+movement_active = 0;
+path_handle = path_add();
+path_set_closed(path_handle, false);
+path_set_precision(path_handle, 4);
+path_set_kind(path_handle, 1);
+path_add_point(path_handle, x, y, 100);
+path_add_point(path_handle, x, -20, 100);
+path_start(path_handle, 1, path_action_stop, true);
+audio_sound_gain(snd_outsidewind, 0, 4000);
+audio_sound_gain(snd_music_falling, 0, 4000);

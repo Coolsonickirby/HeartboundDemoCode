@@ -1,0 +1,11 @@
+event_inherited();
+push_horizontal_flag = 0;
+push_vertical_flag = 1;
+push_animation = 0;
+push_speed = 0.5;
+push_sound = snd_binder_pillarslide;
+laser_cast = 0;
+start_sprite = spr_booktrial_mirror_7;
+locked_sprite = spr_booktrial_mirror_2;
+impact_sprite_1 = spr_booktrial_mirror_impact_7b;
+impact_sprite_2 = spr_booktrial_mirror_impact_2b;

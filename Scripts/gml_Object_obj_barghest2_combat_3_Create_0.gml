@@ -1,0 +1,12 @@
+event_inherited();
+enemy_section = 3;
+depth = -6003;
+image_alpha = 0;
+image_speed = 0.2;
+x_anchor = x;
+y_anchor = y;
+x_max = 2;
+y_max = 5;
+x_freq = 0.03;
+y_freq = 0.04;
+move_counter = 0;

@@ -1,0 +1,15 @@
+event_inherited();
+selected_button = 0;
+cur_row = 0;
+cur_col = 0;
+stored_talker = -4;
+text_location = 0;
+talk_distance = 10;
+cur_message = 1;
+question_true = 1;
+question_asked = 0;
+question_answered = 0;
+global.player_frozen = 1;
+global.current_menu = 2;
+global.menu_active = 1;
+scr_handle_mouse(true, false);

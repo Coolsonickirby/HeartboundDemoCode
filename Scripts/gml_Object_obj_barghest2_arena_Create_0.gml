@@ -1,0 +1,11 @@
+global.surface_offset_x = round(obj_view.x) - 100;
+global.surface_offset_y = round(obj_view.y) - 150;
+global.arena_surface = surface_create(200, 300);
+surface_set_target(global.arena_surface);
+draw_clear_alpha(c_black, 0);
+surface_reset_target();
+depth = -6050;
+image_xscale = 0;
+image_yscale = 0;
+x = obj_view.x;
+y = obj_view.y;

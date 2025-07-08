@@ -1,0 +1,12 @@
+event_inherited();
+global.player_frozen = 1;
+story_index = 21;
+talk_distance = 10;
+cur_message = 30;
+anim_wait = 0;
+speed = global.player_speed_cur;
+direction = 90;
+anim_step = 1;
+collision_mask = spr_baron_mask_sit;
+image_speed = 0.1;
+dest_y = 275;

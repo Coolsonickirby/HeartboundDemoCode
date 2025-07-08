@@ -1,0 +1,11 @@
+depth = -500000;
+next_room = home_dream;
+next_color = 0;
+fade_out = false;
+alpha = 0;
+fadein_timer = 0.02;
+fadeout_timer = 0.02;
+fadepause_timer = 0.02;
+fadeout_amount = 0.02;
+fadein_amount = 0.05;
+alarm[1] = room_speed * fadeout_timer;

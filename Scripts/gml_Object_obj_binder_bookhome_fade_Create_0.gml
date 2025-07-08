@@ -1,0 +1,17 @@
+depth = -500000;
+next_room = binder_booktrial1;
+next_color = 0;
+alpha = 0;
+fadein_timer = 0.02;
+fadeout_timer = 0.02;
+fadepause_timer = 1;
+fadeout_amount = 1;
+fadein_amount = 0.01;
+fade_out = true;
+spinning_counter = 1;
+spinning_direction = 0;
+spinning_required = 10;
+alarm[3] = room_speed * 2;
+audio_sound_gain(snd_music_binder_bookhome, 0, 2000);
+scr_sound_play(snd_home_chargeup, 0, 0.8, false);
+audio_sound_gain(snd_home_chargeup, 0.75, 250);

@@ -1,0 +1,14 @@
+if (instance_exists(obj_booktrial2_laser_3a))
+{
+    sprite_index = light_on;
+    
+    with (obj_music_parent)
+        audio_sound_gain(music_new[1], 0.2, 500);
+}
+else
+{
+    sprite_index = light_off;
+    
+    with (obj_music_parent)
+        audio_sound_gain(music_new[1], 0, 500);
+}

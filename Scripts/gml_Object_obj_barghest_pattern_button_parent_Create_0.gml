@@ -1,0 +1,17 @@
+sprite_open = asset_get_index("spr_" + string_delete(object_get_name(object_index), 1, 4) + "_open");
+sprite_closed = asset_get_index("spr_" + string_delete(object_get_name(object_index), 1, 4) + "_closed");
+sprite_opening = asset_get_index("spr_" + string_delete(object_get_name(object_index), 1, 4) + "_opening");
+sprite_closing = asset_get_index("spr_" + string_delete(object_get_name(object_index), 1, 4) + "_closing");
+sprite_fail = asset_get_index("spr_" + string_delete(object_get_name(object_index), 1, 4) + "_fail");
+depth = -6011;
+sprite_index = sprite_closed;
+image_speed = 0.25;
+button_allowed = 0;
+button_alpha = 1;
+stay_open = 1;
+attack_fired = 0;
+button_number = 0;
+button_fail = 0;
+position_step = 1;
+position_set = 0;
+object_selected = 0;

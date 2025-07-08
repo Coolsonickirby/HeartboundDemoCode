@@ -1,0 +1,10 @@
+event_inherited();
+glow_active = 1;
+image_index = global.storyline_array[22];
+clamp(image_index, 0, 2);
+text_location = 8;
+talk_distance = 10;
+cur_message = 10;
+text_skip = 0;
+text_fade = 1;
+text_border = 0;

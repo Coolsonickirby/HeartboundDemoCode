@@ -1,0 +1,12 @@
+event_inherited();
+mirror_rotation = 1;
+rotation_sprite_1 = spr_booktrial_mirror_6;
+rotation_sprite_2 = spr_booktrial_mirror_5;
+impact_sprite_1 = spr_booktrial_mirror_impact_6a_1;
+impact_sprite_2 = spr_booktrial_mirror_impact_6a_2;
+impact_sprite_3 = spr_booktrial_mirror_impact_6b_1;
+impact_sprite_4 = spr_booktrial_mirror_impact_6b_2;
+impact_sprite_5 = spr_booktrial_mirror_impact_5a_1;
+impact_sprite_6 = spr_booktrial_mirror_impact_5a_2;
+impact_sprite_7 = spr_booktrial_mirror_impact_5b_1;
+impact_sprite_8 = spr_booktrial_mirror_impact_5b_2;

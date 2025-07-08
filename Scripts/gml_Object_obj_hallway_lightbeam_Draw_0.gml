@@ -1,0 +1,6 @@
+if (instance_exists(obj_roomdark_parent))
+{
+    gpu_set_blendmode_ext(9, bm_one);
+    draw_sprite_ext(sprite_index, image_index, round(x), round(y), image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+    gpu_set_blendmode(bm_normal);
+}

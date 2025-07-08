@@ -1,0 +1,32 @@
+y = y_anchor + (sin(move_counter * y_freq) * dist_max);
+move_counter += 1;
+
+if (talking_state == 0)
+{
+    scr_talk();
+}
+else if (global.current_talker == id)
+{
+    if (options_state == 0)
+    {
+        if (global.accept_key && text_complete == 1)
+        {
+            text_complete = 0;
+            
+            switch (next_step)
+            {
+                case 1:
+                    text_location = 0;
+                    next_step = 2;
+                    cur_message = 2;
+                    activate_dialog();
+                    break;
+                
+                case 2:
+                    alarm[1] = room_speed * 2;
+                    end_dialog();
+                    break;
+            }
+        }
+    }
+}

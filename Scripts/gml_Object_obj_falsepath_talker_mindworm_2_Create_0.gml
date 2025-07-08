@@ -1,0 +1,11 @@
+event_inherited();
+text_location = 7;
+talk_distance = 0;
+cur_message = 23;
+text_skip = 0;
+text_fade = 1;
+text_border = 0;
+text_timer = room_speed;
+text_timer_type = 2;
+text_move = 1;
+text_flipped = 1;

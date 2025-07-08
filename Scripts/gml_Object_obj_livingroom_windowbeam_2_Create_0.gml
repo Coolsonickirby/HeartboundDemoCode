@@ -1,0 +1,12 @@
+event_inherited();
+depth = -500;
+image_blend = #F5DEB3;
+image_speed = 0.2;
+lightdir = 3;
+diffuse = 5;
+luminosity = 255;
+falloff = 30;
+activated = 1;
+sprite_normal = spr_home_windowbeam_up_storm;
+sprite_effect = spr_home_windowbeam_up_crash;
+sprite_index = sprite_normal;

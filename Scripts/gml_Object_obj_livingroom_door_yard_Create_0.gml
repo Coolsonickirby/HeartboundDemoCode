@@ -1,0 +1,10 @@
+event_inherited();
+player_x = 380;
+player_y = 404;
+next_room = home_yard;
+next_color = 0;
+fadein_timer = 0.02;
+fadeout_timer = 0.02;
+fadepause_timer = 0.02;
+fadeout_amount = 0.05;
+fadein_amount = 0.05;

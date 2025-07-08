@@ -1,0 +1,10 @@
+event_inherited();
+sound_on = snd_binder_switchon;
+sound_off = snd_binder_switchoff;
+talk_distance = 40;
+last_activated = 1;
+activated = 1;
+light_off = spr_booktrial_switch_down_3;
+light_on = spr_booktrial_switch_down_1;
+image_speed = 0;
+depth = -72;

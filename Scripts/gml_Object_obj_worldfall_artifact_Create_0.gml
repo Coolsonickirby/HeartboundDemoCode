@@ -1,0 +1,11 @@
+image_speed = 0.2;
+image_alpha = 0;
+x_anchor = x;
+y_anchor = y;
+x_max = 80;
+y_max = 20;
+x_freq = 0.04;
+y_freq = 0.03;
+move_counter = 0;
+movement_active = 1;
+movement_stop = 0;

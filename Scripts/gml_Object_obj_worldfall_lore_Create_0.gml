@@ -1,0 +1,12 @@
+event_inherited();
+depth = -300;
+sprite_index = asset_get_index("spr_lore_" + global.player_clothing + "_falling");
+image_speed = 0.2;
+x_anchor = x;
+y_anchor = y;
+x_max = 7;
+y_max = 9;
+x_freq = 0.04;
+y_freq = 0.03;
+move_counter = 0;
+anim_step = 1;

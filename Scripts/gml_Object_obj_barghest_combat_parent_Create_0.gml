@@ -1,0 +1,9 @@
+enemy_section = 0;
+enemy_attacking = 0;
+color_mod = 0;
+color_speed = 5;
+color_target = 16777215;
+image_blend = make_color_rgb(color_mod, color_mod, color_mod);
+alpha_speed = 0.025;
+alpha_target = 1;
+image_alpha = 1;

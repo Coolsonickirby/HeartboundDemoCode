@@ -1,0 +1,18 @@
+depth = -500000;
+next_room = forest_forestdream;
+next_color = 16777215;
+fade_out = false;
+alpha = 0;
+fadein_timer = 0.02;
+fadeout_timer = 0.02;
+fadepause_timer = 0.5;
+fadeout_amount = 0.01;
+fadein_amount = 0.01;
+fade_out = true;
+alarm[1] = room_speed * 0.5;
+audio_sound_gain(snd_rain, 0, 1000);
+audio_sound_gain(snd_insidewind, 0, 1000);
+audio_sound_gain(snd_outsidewind, 0, 1000);
+audio_sound_gain(snd_stormrain, 0, 1000);
+audio_sound_gain(snd_music_shadows_sonata, 0, 1000);
+audio_sound_gain(snd_barghest_dodge_blast, 0, 2000);

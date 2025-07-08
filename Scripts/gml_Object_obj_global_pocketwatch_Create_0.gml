@@ -1,0 +1,15 @@
+depth = -4000;
+image_speed = 0;
+clock_base = global.storyline_array[287];
+clock_gears = global.storyline_array[289];
+watch_finished = 0;
+watch_move_cur = 0;
+watch_move_min = 0;
+watch_move_max = sprite_height + 20;
+draw_x = camera_get_view_x(view_camera[view_current]) + (sprite_width * 0.6);
+draw_y = (camera_get_view_y(view_camera[view_current]) + (sprite_height * 0.6)) - watch_move_max;
+minute_base = irandom(360);
+minute_mod = irandom(60);
+hour_base = irandom(360);
+hour_mod = irandom(60);
+alarm[4] = 1;

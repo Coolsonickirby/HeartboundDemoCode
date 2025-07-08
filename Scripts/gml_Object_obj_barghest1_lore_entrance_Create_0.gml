@@ -1,0 +1,11 @@
+event_inherited();
+dialog_step = 0;
+talk_distance = 0;
+cur_message = 1;
+sprite_index = asset_get_index("spr_lore_" + global.player_clothing + "_up_walk");
+image_speed = 0.15;
+speed = 1.5;
+direction = 90;
+anim_step = 1;
+anim_wait = 1;
+collision_mask = spr_blank_mask;

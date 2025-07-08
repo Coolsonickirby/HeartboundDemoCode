@@ -1,0 +1,11 @@
+image_speed = 0;
+cur_char = "";
+fly_direction = 0;
+x_anchor = x;
+y_anchor = y;
+x_max = 5;
+y_max = 5;
+x_freq = 0.04;
+y_freq = 0.03;
+move_counter = 0;
+alarm[0] = 1;

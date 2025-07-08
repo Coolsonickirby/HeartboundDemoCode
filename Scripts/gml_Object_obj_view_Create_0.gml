@@ -1,0 +1,10 @@
+follow_player = 1;
+follow_object = obj_player_parent;
+shader_active = 0;
+shader_surface = -4;
+depth = -20000;
+screenshot_number = 1;
+audio_debug_enabled = 0;
+display_set_gui_size(640, 360);
+steam_set_warning_message_hook();
+alarm[0] = room_speed;

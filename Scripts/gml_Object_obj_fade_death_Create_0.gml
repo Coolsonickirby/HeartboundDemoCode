@@ -1,0 +1,11 @@
+depth = -500000;
+next_room = death_barghest;
+next_color = 0;
+fade_out = true;
+alpha = 0;
+fadein_timer = 0.02;
+fadeout_timer = 0.02;
+fadepause_timer = 2;
+fadeout_amount = 0.01;
+fadein_amount = 0.01;
+alarm[1] = room_speed * fadeout_timer;

@@ -1,0 +1,13 @@
+depth = -500000;
+next_room = 0;
+next_color = 0;
+player_x = 0;
+player_y = 0;
+player_object = -4;
+fade_out = false;
+alpha = 0;
+fadein_timer = 0;
+fadeout_timer = 0;
+fadepause_timer = 0;
+fadeout_amount = 0;
+fadein_amount = 0;

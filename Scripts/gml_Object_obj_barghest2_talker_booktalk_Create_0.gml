@@ -1,0 +1,11 @@
+event_inherited();
+text_location = 1;
+talk_distance = 0;
+cur_message = 5;
+dialog_step = 1;
+text_border = 0;
+text_skip = 0;
+text_fade = 1;
+last_activated = 0;
+activated = 0;
+alarm[0] = 1;

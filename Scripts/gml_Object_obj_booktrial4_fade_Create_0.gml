@@ -1,0 +1,11 @@
+depth = -500000;
+next_room = binder_bookdream;
+next_color = 0;
+alpha = 0;
+fadein_timer = 0.02;
+fadeout_timer = 0.02;
+fadepause_timer = 5;
+fadeout_amount = 1;
+fadein_amount = 0.01;
+fade_out = true;
+alarm[1] = 1;

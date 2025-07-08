@@ -1,0 +1,13 @@
+surface_free(global.settings_surface);
+buffer_delete(screenshot_buffer);
+layer_hspeed(layer_id, layer_last_hspeed);
+layer_vspeed(layer_id, layer_last_vspeed);
+instance_destroy(obj_settings_volume);
+instance_destroy(obj_settings_menu);
+instance_destroy(obj_settings_wiggle);
+instance_destroy(obj_settings_fullscreen);
+instance_destroy(obj_settings_controller_keybind_parent);
+instance_destroy(obj_settings_controller_type);
+instance_destroy(obj_settings_arrow_parent);
+instance_destroy(obj_settings_mouse_parent);
+instance_destroy(obj_settings_keybind_parent);

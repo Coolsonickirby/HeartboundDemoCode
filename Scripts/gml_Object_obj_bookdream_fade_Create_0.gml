@@ -1,0 +1,11 @@
+next_room = darkworld_falsestart;
+next_color = 0;
+depth = -500000;
+alpha = 0;
+fadein_timer = 0.02;
+fadeout_timer = 0.02;
+fadepause_timer = 1;
+fadeout_amount = 0.01;
+fadein_amount = 0.02;
+fade_out = true;
+alarm[1] = 1;

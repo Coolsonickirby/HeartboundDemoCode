@@ -1,0 +1,10 @@
+event_inherited();
+player_x = 320;
+player_y = 757;
+next_room = forest_darkbough;
+next_color = 0;
+fadein_timer = 0.02;
+fadeout_timer = 0.02;
+fadepause_timer = 0.02;
+fadeout_amount = 0.05;
+fadein_amount = 0.05;

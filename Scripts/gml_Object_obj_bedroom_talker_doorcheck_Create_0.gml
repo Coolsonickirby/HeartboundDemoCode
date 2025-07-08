@@ -1,0 +1,10 @@
+event_inherited();
+story_index = 6;
+dialog_index = 12;
+talk_distance = 0;
+cur_message = 15;
+cur_talks = 0;
+min_message = 16;
+max_message = 18;
+last_activated = 0;
+activated = 0;

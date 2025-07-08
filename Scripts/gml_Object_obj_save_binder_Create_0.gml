@@ -1,0 +1,10 @@
+event_inherited();
+talk_distance = 10;
+cur_message = 4000;
+question_true = 0;
+question_asked = 0;
+question_answered = 0;
+sprite_base = sprite_index;
+sprite_index = spr_save_book_closed;
+mask_index = sprite_base;
+image_speed = 0.15;
